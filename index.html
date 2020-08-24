@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <div class="banner">
+      <div class="nav-menu">
+        <ul>
+          <li><a class="header__link" href="#about_me">About me</a></li>
+          <li><a class="header__link" href="">Excercises</a></li>
+          <li><a class="header__link" href="">Contact me</a></li>
+          <li><a class="header__link" href="">Portofolio</a></li>
+        </ul>
+      </div>
+      <h1 class="title">
+        <span class="title--main">
+          Your good neighbor
+        </span>
+        <span class="title--secondary">
+          Lenin
+        </span>
+        <span class="title--third">
+          The web developer
+        </span>
+      </h1>
+    <!--   <img class="img-3" src="./img/Farmer-randy.png" alt="">
+      <img class="img-1" src="./img/south-park.png" alt="">
+      <img  class="img-2" src="./img/spfbw-chaos.webp" alt=""> -->
+      
+    </div>
+  </header>
+  <main>
+    <section class="section-about" id="about_me">
+      <div class="info">
+        <h2 class="second-title">Welcome to my portfolio this site is fucking awesome</h2>
+          <div class="info__about">
+            <div class="text">
+              My name is Lenin but you can call me Santi. I am a systems engineer, I was born in Tulcán and I am 27 years old. My principal skills are:
+                <ul class="info__skills">
+                  <li>HTML 5</li>
+                  <li>CSS</li>
+                  <li>SASS</li>
+                  <li>Javascript</li>
+                  <li>React</li>
+                  <li>Angular</li>
+                  <li>NodeJs</li>
+                  <li>Wordpress</li>
+                </ul>
+               
+            </div>
+            <div class="photo-profile">
+                <img  class="photo-profile_bio img-bio-1" src="./img/me.jpg" alt="">
+                <div  class="photo-profile_bio img-bio-2"  alt="">
+                  <ul>
+                    <li>Twitter: <a target="_blank" href="https://twitter.com/lenon468">@lenon468</a> </li>
+                    <li>Github: <a target="_blank" href="https://github.com/len23">len23</a> </li>
+                    <li>Instagram: <a target="_blank" href="https://www.instagram.com/">santiago_mtlvo</a></li>
+                    <li>Linked In: <a target="_blank" href=" https://www.linkedin.com/in/lenin-montalvo-77660b1b2/">lenin-montalvo</a></li>
+                   
+                  </ul>
+                  
+                </div>
+            </div>
+            
+          </div>
+      </div>
+      <div class="skills_logos">
+        <img src="./img/html5.png" alt="">
+        <img src="./img/css.png" alt="">
+        <img src="./img/245px-Sass_Logo_Color.svg.png" alt="">
+        <img src="./img/logo-javascript.png" alt="">
+        <img src="./img/React.png" alt="">
+        <img src="./img/angular.png" alt="">
+        <img src="./img/nodejs.png" alt="">
+        <img src="./img/wordpress.png" alt="">
+      </div>
+    </section>
+    <section class="section-exercices">
+      <h2 class="second-title">Some interesting excercises</h2>
+      <div class="nav-excercises">
+        <nav class="nav nav-pills  justify-content-center">
+          <a class="nav-link bg-dark active" href="#">Calculator</a>
+          <a class="nav-link text-dark" href="#">Crono</a>
+          <a class="nav-link text-dark" href="#">Link</a>
+          <a class="nav-link text-dark" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </nav>
+      </div>
+      <div class="execercise">
+          <form class="form-inline">
+            <div class="form-group row">
+              <label class="col" for="operation" >Insert the operation</label>
+              <input  type="text" class="form-control col" id="operation" required>
+              <button type="submit" class="btn btn-primary bg-dark col ml-5">Exec</button>
+            </div>
+            
+          </form>
+      </div>
+    </section>
+    <div class="section-form">
+      <form action="" class="form-contactme">
+        <div class="group-form">
+          <label for="name">Name:</label>
+          <input type="text" id="name">
+        </div>
+        <div class="group-form">
+          <label for="email">Email:</label>
+          <input type="email" id="email">
+        </div>
+        <div class="group-form">
+          <label for="telephone">Telephone:</label>
+          <input type="text" id="telephone">
+        </div>
+        <div class="group-form comment">
+          <label for="coment">Comment:</label>
+          <textarea name="" id="coment" cols="30" rows="10"></textarea>
+        </div>
+        
+        <div class="submit-container">
+          <input type="submit">
+        </div>
+      </form>
+    </div>
+  </main>
+  <footer>
+    <p> Copyright © by Lenin Montalvo.</p>
+  </footer>
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js" integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J" crossorigin="anonymous"></script>
+</body>
+</html>
